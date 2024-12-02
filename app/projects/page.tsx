@@ -22,6 +22,7 @@ const itemVariants = {
 }
 export default function ProjectsPage() {
 
+
     return (
         <section className="w-full py-12 md:py-24 lg:py-32 flex flex-col items-center">
             <div className="container px-4 md:px-6 ">
@@ -64,6 +65,8 @@ export default function ProjectsPage() {
                             description="A full-stack real estate web app to help people find homes for sale. People can search cities for listings and find statistics about average price and more from that city."
                             tags={["Next.js", "TypeScript", "Spring Boot", "Java", "JavaScript", "Tailwind"]}
                             link="https://github.com/NickCecc/COMP-3220-Backend"
+                            /* eslint-disable-next-line @typescript-eslint/ban-ts-comment */
+                            // @ts-expect-error
                             image={HomeRunAppPic}
                         />
                         <ProjectCard

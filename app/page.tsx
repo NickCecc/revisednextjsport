@@ -1,7 +1,7 @@
 'use client'
 
 import Link from "next/link"
-import {ArrowRight, Code, Cpu, Database, LayoutPanelLeft} from 'lucide-react'
+import {ArrowRight, Code, Cpu, LayoutPanelLeft} from 'lucide-react'
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
