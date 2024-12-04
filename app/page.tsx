@@ -26,7 +26,7 @@ const itemVariants = {
 export default function Home() {
   return (
       <div className="flex flex-col min-h-screen">
-        <section className="flex-1 flex flex-col justify-center items-center px-4 md:px-6">
+        <section className="flex-1 flex flex-col justify-center items-center px-4 md:px-6 pt-20">
           <motion.div
               className="text-center mb-8"
               initial="hidden"
@@ -34,7 +34,7 @@ export default function Home() {
               variants={containerVariants}
           >
             <motion.h1
-                className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 mb-4 pt-10"
+                className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 mb-4"
                 variants={itemVariants}
                 animate={{
                   backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"],
