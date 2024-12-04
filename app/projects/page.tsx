@@ -87,7 +87,7 @@ export default function ProjectsPage() {
                             title="Personal Portfolio"
                             description="This is the portfolio you are currently looking at. I am always working on improving it and adding more features."
                             tags={["Next.js", "JavaScript", "Tailwind", "TypeScript"]}
-                            link="https://github.com/NickCecc/portfolionextjs"
+                            link="https://github.com/NickCecc/revisednextjsport"
                             /* eslint-disable-next-line @typescript-eslint/ban-ts-comment */
                             // @ts-expect-error
                             image={portfoliopic}
