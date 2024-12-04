@@ -3,6 +3,9 @@
 import { motion } from "framer-motion"
 import { ProjectCard } from "@/components/ui/project-card"
 import HomeRunAppPic from "@/public/HomeRunAppPic.png"
+import exoplanet from "@/public/exoplanet.png"
+import indevelopment from "@/public/indevelopment.png"
+import portfoliopic from "@/public/portfoliopic.png"
 
 const containerVariants = {
     hidden: { opacity: 0 },
@@ -58,7 +61,9 @@ export default function ProjectsPage() {
                             description="A React-based web application to interactively view all of the known exoplanets in the universe. This was done for NASA's 2024 SpaceApps competition."
                             tags={["React", "JavaScript", "Python", "Three.js"]}
                             link="https://github.com/NickCecc/SpaceApps"
-                            image="/placeholder.svg?height=400&width=600"
+                            /* eslint-disable-next-line @typescript-eslint/ban-ts-comment */
+                            // @ts-expect-error
+                            image={exoplanet}
                         />
                         <ProjectCard
                             title="Real Estate Web App"
@@ -74,14 +79,18 @@ export default function ProjectsPage() {
                             description="A financial planner made for students. Currently in development but will be able to track your spending and alert you about bad spending habits."
                             tags={["Next.js", "JavaScript", "Tailwind", "TypeScript"]}
                             link="https://github.com/johndoe/blockchain-explorer"
-                            image="/placeholder.svg?height=400&width=600"
+                            /* eslint-disable-next-line @typescript-eslint/ban-ts-comment */
+                            // @ts-expect-error
+                            image={indevelopment}
                         />
                         <ProjectCard
                             title="Personal Portfolio"
                             description="This is the portfolio you are currently looking at. I am always working on improving it and adding more features."
                             tags={["Next.js", "JavaScript", "Tailwind", "TypeScript"]}
                             link="https://github.com/NickCecc/portfolionextjs"
-                            image="/placeholder.svg?height=400&width=600"
+                            /* eslint-disable-next-line @typescript-eslint/ban-ts-comment */
+                            // @ts-expect-error
+                            image={portfoliopic}
                         />
                     </motion.div>
             </div>
