@@ -113,28 +113,30 @@ function Journey() {
     ]
 
     return (
-        <section className="space-y-8 pt-10">
+        <section className="space-y-8 pt-8">
             <h2 className="text-3xl font-semibold text-center text-blue-400">My Journey</h2>
-            <div className="relative max-w-4xl mx-auto">
+            <div className="relative max-w-4xl mx-auto px-4">
                 <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-blue-500/20"></div>
                 {events.map((event, index) => (
                     <motion.div
                         key={index}
                         className="mb-12 relative"
-                        initial={{ opacity: 0, y: 50 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.5, delay: index * 0.2 }}
+                        initial={{opacity: 0, y: 50}}
+                        animate={{opacity: 1, y: 0}}
+                        transition={{duration: 0.5, delay: index * 0.2}}
                     >
                         <motion.div
                             className="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-blue-500 rounded-full border-4 border-gray-800 flex items-center justify-center"
                         >
                             <span className="text-white text-sm font-semibold">{event.year}</span>
                         </motion.div>
-                        <Card className={`ml-16 md:ml-0 md:w-5/6 ${index % 2 === 0 ? 'md:mr-auto' : 'md:ml-auto'} bg-gray-800/50 border-gray-700`}>
+                        <Card
+                            className={`ml-0 md:w-5/6 ${index % 2 === 0 ? 'md:mr-auto' : 'md:ml-auto'} bg-gray-800/50 border-gray-700`}>
                             <CardHeader>
                                 <CardTitle className={`text-xl ${event.current ? 'text-blue-400' : 'text-gray-200'}`}>
                                     {event.title}
-                                    {event.current && <span className="ml-2 text-sm bg-blue-500 text-white px-2 py-1 rounded-full">Current</span>}
+                                    {event.current && <span
+                                        className="ml-2 text-sm bg-blue-500 text-white px-2 py-1 rounded-full">Current</span>}
                                 </CardTitle>
                             </CardHeader>
                             <CardContent>
@@ -154,20 +156,20 @@ function Skills() {
             title: "Frontend",
             icon: "🌐",
             skills: [
-                { name: "React", level: 90 },
-                { name: "Next.js", level: 85 },
-                { name: "TypeScript", level: 80 },
-                { name: "CSS/Tailwind", level: 85 },
+                {name: "React", level: 90},
+                {name: "Next.js", level: 85},
+                {name: "TypeScript", level: 80},
+                {name: "CSS/Tailwind", level: 85},
             ]
         },
         {
             title: "Backend",
             icon: "🖥️",
             skills: [
-                { name: "Java", level: 90 },
-                { name: "Python", level: 70 },
-                { name: "SQL", level: 75 },
-                { name: "Spring Boot", level: 50 },
+                {name: "Java", level: 90},
+                {name: "Python", level: 70},
+                {name: "SQL", level: 75},
+                {name: "Spring Boot", level: 50},
 
             ]
         },
@@ -182,9 +184,9 @@ function Skills() {
                 {skillCategories.map((category, index) => (
                     <motion.div
                         key={category.title}
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.5, delay: index * 0.1 }}
+                        initial={{opacity: 0, y: 20}}
+                        animate={{opacity: 1, y: 0}}
+                        transition={{duration: 0.5, delay: index * 0.1}}
                     >
                         <Card className="bg-gray-800/50 border-gray-700 overflow-hidden">
                             <CardHeader className="bg-gray-700/50">
