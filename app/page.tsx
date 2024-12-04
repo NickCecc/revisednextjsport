@@ -70,7 +70,7 @@ export default function Home() {
           </motion.div>
 
           <motion.div
-              className="w-full max-w-5xl pt-5"
+              className="w-full max-w-5xl pt-5 pb-8"
               initial="hidden"
               animate="visible"
               variants={containerVariants}
