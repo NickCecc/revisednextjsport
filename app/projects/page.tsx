@@ -28,7 +28,7 @@ export default function ProjectsPage() {
 
     return (
         <section className="w-full flex flex-col items-center pt-20">
-            <div className="container px-4 md:px-6 ">
+            <div className="container px-4 md:px-6 pb-10">
                 <motion.div
                     className="text-center mb-8"
                     initial="hidden"
