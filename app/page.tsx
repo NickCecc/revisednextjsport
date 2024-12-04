@@ -26,7 +26,7 @@ const itemVariants = {
 export default function Home() {
   return (
       <div className="flex flex-col min-h-screen">
-        <section className="flex-1 flex flex-col justify-center items-center px-4 md:px-6">
+        <section className="flex-1 flex flex-col justify-center items-center px-4 md:px-6 pt-16">
           <motion.div
               className="text-center mb-8"
               initial="hidden"

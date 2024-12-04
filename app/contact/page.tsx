@@ -55,7 +55,7 @@ export default function ContactPage() {
     };
 
     return (
-        <div className="space-y-20 py-20">
+        <div className="space-y-20 py-20 pt-20">
             <section className="w-full flex flex-col items-center">
                 <div className="container px-4 md:px-6 pt-4">
                     <motion.div
