@@ -113,7 +113,7 @@ function Journey() {
     ]
 
     return (
-        <section className="space-y-8 pt-20">
+        <section className="space-y-8 pt-10">
             <h2 className="text-3xl font-semibold text-center text-blue-400">My Journey</h2>
             <div className="relative max-w-4xl mx-auto">
                 <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-blue-500/20"></div>

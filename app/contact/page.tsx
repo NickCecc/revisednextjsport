@@ -77,7 +77,7 @@ export default function ContactPage() {
                 </div>
             </section>
 
-            <section className="w-full py-12 flex flex-col items-center">
+            <section className="w-full py-9 flex flex-col items-center">
                 <div className="container px-4 md:px-6 flex flex-col items-center">
                     <div className="grid gap-6 lg:grid-cols-3">
                         <motion.div
