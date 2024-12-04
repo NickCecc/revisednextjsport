@@ -45,7 +45,7 @@ export default function Home() {
                   repeat: Infinity,
                 }}
             >
-              Nicholas Cecchin
+              Nicholas
             </motion.h1>
             <motion.p
                 className="text-xl text-gray-300 mb-6"
