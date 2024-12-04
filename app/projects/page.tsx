@@ -78,7 +78,7 @@ export default function ProjectsPage() {
                             title="Student Financial Planner"
                             description="A financial planner made for students. Currently in development but will be able to track your spending and alert you about bad spending habits."
                             tags={["Next.js", "JavaScript", "Tailwind", "TypeScript"]}
-                            link="https://github.com/johndoe/blockchain-explorer"
+                            link="https://github.com/NickCecc/"
                             /* eslint-disable-next-line @typescript-eslint/ban-ts-comment */
                             // @ts-expect-error
                             image={indevelopment}
